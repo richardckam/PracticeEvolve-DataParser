@@ -21,7 +21,7 @@ namespace Kamputing.DataParser
 
             readParser = new CsvListedReadParser();
             //// This will parse the data in a relational format instead
-            readParser = new CsvEmbeddedReadParser();
+            //readParser = new CsvEmbeddedReadParser();
 
             DataSet data = dataReader.ReadData(reader, readParser, inputFilePath);
 
